@@ -1,0 +1,26 @@
+{
+  "name": "warsawjs-workshop-45-piotrek",
+  "private": true,
+  "scripts": {
+    "test": "mocha",
+    "lint": "standard"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/chai": "^4.2.11",
+    "@types/mocha": "^7.0.2",
+    "@types/node": "^14.0.13",
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1",
+    "standard": "^14.3.4",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  },
+  "mocha": {
+    "require": "ts-node/register/transpile-only",
+    "recursive": true
+  },
+  "standard": {
+    "env": "mocha"
+  }
+}

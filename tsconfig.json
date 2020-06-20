@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "lib": [
+      "ESNext"
+    ],
+    "target": "ESNext",
+    "sourceMap": true,
+    "module": "CommonJS",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "moduleResolution": "node"
+  }
+}
