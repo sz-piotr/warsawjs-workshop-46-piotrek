@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import { FakeSuperclass } from '../../src/2-symbols/1-instanceof'
 
-describe('Symbols 1 - instanceof', () => {
+describe.skip('Symbols 1 - instanceof', () => {
   it('is not Object', () => {
     expect(FakeSuperclass).not.to.equal(Object)
   })

@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import { scan } from '../../src/3-iterators/2-scan'
 
-describe('Iterators 2 - scan', () => {
+describe.skip('Iterators 2 - scan', () => {
   it('works like in the example', () => {
     const sum = (a, b) => a + b
     const collected = []

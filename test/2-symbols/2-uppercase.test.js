@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import { UppercaseLetter } from '../../src/2-symbols/2-uppercase'
 
-describe('Symbols 2 - uppercase', () => {
+describe.skip('Symbols 2 - uppercase', () => {
   it('works for the example case', () => {
     const x = 'abracadabra'.replace(new UppercaseLetter('a'))
     expect(x).to.equal('AbrAcAdAbrA')

@@ -2,7 +2,7 @@ import { expect } from 'chai'
 import { EventEmitter } from 'events'
 import { toEventStream } from '../../src/4-async/3-events'
 
-describe('Async 3 - events', () => {
+describe.skip('Async 3 - events', () => {
   it('can turn an EventEmitter to a stream', async () => {
     const emitter = new EventEmitter()
 

@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import { countdown } from '../../src/4-async/1-countdown'
 
-describe('Async 1 - countdown', () => {
+describe.skip('Async 1 - countdown', () => {
   it('counts down from 10 to 0', async () => {
     let lastTime
     let i = 10

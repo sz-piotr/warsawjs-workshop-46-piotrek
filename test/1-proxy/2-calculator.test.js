@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import { createCalculator } from '../../src/1-proxy/2-calculator'
 
-describe('Proxy 2 - calculator', () => {
+describe.skip('Proxy 2 - calculator', () => {
   const testCases = [
     { expression: '1 + 2', result: 3 },
     { expression: '1234 + 456', result: 1690 },

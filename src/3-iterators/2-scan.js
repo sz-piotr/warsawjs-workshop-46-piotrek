@@ -17,13 +17,4 @@
  * first call
  */
 export function scan (iterable, accumulator, initialValue) {
-  return {
-    * [Symbol.iterator] () {
-      let value = initialValue
-      for (const currentValue of iterable) {
-        value = accumulator(value, currentValue)
-        yield value
-      }
-    }
-  }
 }

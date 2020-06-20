@@ -14,17 +14,4 @@
  * @returns a calculator
  */
 export function createCalculator () {
-  return new Proxy({}, {
-    get (target, property) {
-      let [left, operator, right] = property.split(' ')
-      left = parseFloat(left)
-      right = parseFloat(right)
-      switch (operator) {
-        case '+': return left + right
-        case '-': return left - right
-        case '*': return left * right
-        case '/': return left / right
-      }
-    }
-  })
 }

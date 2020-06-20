@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import { applyEvenOdd, removeEvenOdd } from '../../src/3-iterators/4-even-odd'
 
-describe('Iterators 4 - even odd', () => {
+describe.skip('Iterators 4 - even odd', () => {
   it('makes all arrays iterate through even indices first and then odd', () => {
     applyEvenOdd()
 

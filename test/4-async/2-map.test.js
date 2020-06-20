@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import { map } from '../../src/4-async/2-map'
 
-describe('Async 2 - map', () => {
+describe.skip('Async 2 - map', () => {
   it('maps over the async iterable', async () => {
     const input = {
       async * [Symbol.asyncIterator] () {

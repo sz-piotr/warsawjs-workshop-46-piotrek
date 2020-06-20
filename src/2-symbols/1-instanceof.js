@@ -3,7 +3,4 @@
  * string `"banana"`.
  */
 export class FakeSuperclass {
-  static [Symbol.hasInstance] (value) {
-    return value !== 'banana'
-  }
 }

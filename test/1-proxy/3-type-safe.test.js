@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import { makeTypeSafe } from '../../src/1-proxy/3-type-safe'
 
-describe('Proxy 3 - type safe', () => {
+describe.skip('Proxy 3 - type safe', () => {
   it('is transparent for a correct 0-argument call', () => {
     const fn = () => 1
     const result = makeTypeSafe(fn, [])

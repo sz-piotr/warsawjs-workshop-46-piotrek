@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import { alwaysPlusOne } from '../../src/1-proxy/1-simple'
 
-describe('Proxy 1 - simple', () => {
+describe.skip('Proxy 1 - simple', () => {
   it('single numerical property', () => {
     const object = { a: 1 }
     const proxy = alwaysPlusOne(object)

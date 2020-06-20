@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import { reverse } from '../../src/3-iterators/1-reverse'
 
-describe('Iterators 1 - reverse', () => {
+describe.skip('Iterators 1 - reverse', () => {
   it('goes through the array in reverse', () => {
     const array = [1, 2, 3]
     const collected = []

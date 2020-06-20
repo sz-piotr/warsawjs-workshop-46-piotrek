@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import { open } from '../../src/3-iterators/3-safe'
 
-describe('Iterators 3 - safe', () => {
+describe.skip('Iterators 3 - safe', () => {
   const randInt = (max) => Math.floor(Math.random() * max)
 
   it('cracks open the safe', () => {

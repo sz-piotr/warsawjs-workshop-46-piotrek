@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import { addUndo } from '../../src/1-proxy/4-undo'
 
-describe('Proxy 4 - undo', () => {
+describe.skip('Proxy 4 - undo', () => {
   it('can undo a simple set', () => {
     const x = { a: 1 }
     const { result, undo } = addUndo(x)
