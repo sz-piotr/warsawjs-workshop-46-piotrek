@@ -4,10 +4,10 @@
  *
  * Examples:
  * ```
- * const isPerson = isObject({
+ * const isPerson = isObjectOf({
  *   name: isA('string'),
  *   age: isA('number'),
- *   address: isObject({
+ *   address: isObjectOf({
  *     street: isA('string'),
  *     country: isA('string')
  *   })
@@ -21,7 +21,7 @@
  * }) // true
  * ```
  */
-export const isObject = schema => value =>
+export const isObjectOf = schema => value =>
   typeof value === 'object' &&
   value !== null &&
   Object.keys(schema)
