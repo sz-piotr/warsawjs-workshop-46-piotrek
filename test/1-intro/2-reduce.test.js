@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import { getTotalSalary } from '../../src/1-intro/2-reduce'
 
-describe('2 - reduce - getSentences', () => {
+describe('2 - (intro) reduce - getSentences', () => {
   it('returns 0 given []', () => {
     const employees = []
     const result = getTotalSalary(employees)

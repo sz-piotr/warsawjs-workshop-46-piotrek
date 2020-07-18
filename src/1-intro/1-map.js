@@ -12,9 +12,10 @@
  * ```
  *
  * Example:
- *
+ * ```
  * Input = [{ firstName: 'John', lastName: 'Doe', salary: 2000 }]
  * Output = 'John Doe earns 2000 dollars.'
+ * ```
  */
 export function getSentences (employees) {
   return employees.map(employee => (

@@ -12,12 +12,13 @@
  * ```
  *
  * Example:
- *
+ * ```
  * Input = [
  *   { firstName: 'Joe', lastName: 'Schmoe', salary: 2000 },
  *   { firstName: 'Jane', lastName: 'Doe', salary: 4000 },
  * ]
  * Output = 6000
+ * ```
  */
 export function getTotalSalary (employees) {
   return employees

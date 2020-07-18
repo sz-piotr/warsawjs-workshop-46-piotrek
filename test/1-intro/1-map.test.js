@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import { getSentences } from '../../src/1-intro/1-map'
 
-describe('1 - map - getSentences', () => {
+describe('1 - (intro) map - getSentences', () => {
   it('returns [] given []', () => {
     const employees = []
     const result = getSentences(employees)

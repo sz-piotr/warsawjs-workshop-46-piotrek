@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import { getHighEarners } from '../../src/1-intro/3-filter'
 
-describe('3 - filter - getSentences', () => {
+describe('3 - (intro) filter - getSentences', () => {
   it('returns [] given []', () => {
     const employees = []
     const result = getHighEarners(employees)

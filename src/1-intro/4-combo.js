@@ -15,7 +15,7 @@ import { getHighEarners } from './3-filter'
  * ```
  *
  * Example:
- *
+ * ```
  * Input = [
  *   { firstName: 'Tom', lastName: 'Poor', position: 'Accountant', salary: 1000 },
  *   { firstName: 'Lilly', lastName: 'Rich', position: 'Accountant', salary: 3000 },
@@ -27,6 +27,7 @@ import { getHighEarners } from './3-filter'
  *   { position: 'Accountant', employees: ['Lilly Rich', 'Jane Wealthy'] },
  *   { position: 'Boss', employees: ['Dick Greedy'] },
  * ]
+ * ```
  */
 export function getHighEarnersByPosition (employees) {
   const unique = (value, index, array) => array.indexOf(value) === index

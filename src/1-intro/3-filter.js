@@ -14,7 +14,7 @@ import { getTotalSalary } from './2-reduce'
  * ```
  *
  * Example:
- *
+ * ```
  * Input = [
  *   { firstName: 'Tom', lastName: 'Poor', salary: 2000 },
  *   { firstName: 'Lilly', lastName: 'Beggar', salary: 3000 },
@@ -22,6 +22,7 @@ import { getTotalSalary } from './2-reduce'
  *   { firstName: 'Dick', lastName: 'Rich', salary: 5000 },
  * ]
  * Output = ['Jane Wealthy', 'Dick Rich']
+ * ```
  */
 export function getHighEarners (employees) {
   const average = getTotalSalary(employees) / employees.length
