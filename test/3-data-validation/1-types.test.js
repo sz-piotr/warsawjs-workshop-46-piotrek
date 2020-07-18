@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import { isA } from '../../src/3-data-validation/1-types'
 
-describe('1 - (data-validation) types - isA', () => {
+describe.skip('1 - (data-validation) types - isA', () => {
   it('can succeed for primitives', () => {
     expect(isA('string')('foo')).to.equal(true)
   })

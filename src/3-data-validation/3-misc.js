@@ -21,10 +21,8 @@ is4(4) // true
 is4(3) // false
 */
 
-export const isArrayOf = f => value =>
-  Array.isArray(value) && value.every(f)
+export const isArrayOf = null
 
-export const isAnyOf = (...fs) => value =>
-  fs.some(f => f(value))
+export const isAnyOf = null
 
-export const isExactly = x => value => value === x
+export const isExactly = null

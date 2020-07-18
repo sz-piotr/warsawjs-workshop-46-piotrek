@@ -1,5 +1,3 @@
-import { getHighEarners } from './3-filter'
-
 /**
  * Write a function that takes an array of employees and returns those who earn
  * more than the average on their position, grouped by their position.
@@ -29,17 +27,4 @@ import { getHighEarners } from './3-filter'
  * ]
  * ```
  */
-export function getHighEarnersByPosition (employees) {
-  const unique = (value, index, array) => array.indexOf(value) === index
-  return employees
-    .map(employee => employee.position)
-    .filter(unique)
-    .map(position => {
-      const employeesOnPosition = employees
-        .filter(employee => employee.position === position)
-      return {
-        position,
-        employees: getHighEarners(employeesOnPosition)
-      }
-    })
-}
+export function getHighEarnersByPosition (employees) {}

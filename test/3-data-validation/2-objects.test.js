@@ -2,7 +2,7 @@ import { expect } from 'chai'
 import { isA } from '../../src/3-data-validation/1-types'
 import { isObjectOf } from '../../src/3-data-validation/2-objects'
 
-describe('2 - (data-validation) objects - isObjectOf', () => {
+describe.skip('2 - (data-validation) objects - isObjectOf', () => {
   it('always fails for non-objects', () => {
     expect(isObjectOf({})(1)).to.equal(false)
   })

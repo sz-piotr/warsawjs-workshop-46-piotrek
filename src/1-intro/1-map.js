@@ -18,12 +18,4 @@
  * ```
  */
 export function getSentences (employees) {
-  return employees.map(employee => (
-    employee.firstName +
-    ' ' +
-    employee.lastName +
-    ' earns ' +
-    employee.salary +
-    ' dollars.'
-  ))
 }

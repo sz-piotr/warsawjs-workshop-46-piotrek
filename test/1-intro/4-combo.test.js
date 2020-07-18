@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import { getHighEarnersByPosition } from '../../src/1-intro/4-combo'
 
-describe('4 - (intro) combo - getHighEarners', () => {
+describe.skip('4 - (intro) combo - getHighEarners', () => {
   it('returns [] given []', () => {
     const employees = []
     const result = getHighEarnersByPosition(employees)

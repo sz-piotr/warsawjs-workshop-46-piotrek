@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import { Result } from '../../src/4-monads/2-result'
 
-describe('2 - (monads) result - Result', () => {
+describe.skip('2 - (monads) result - Result', () => {
   it('can be constructed as ok', () => {
     const ok = Result.ok(1)
     expect(ok.value).to.equal(1)

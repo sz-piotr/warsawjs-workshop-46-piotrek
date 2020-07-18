@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import { isPerson } from '../../src/3-data-validation/4-constraints'
 
-describe('4 - (data-validation) constraints - isPerson', () => {
+describe.skip('4 - (data-validation) constraints - isPerson', () => {
   it('fails for non objects', () => {
     expect(isPerson(null)).to.equal(false)
     expect(isPerson(1)).to.equal(false)

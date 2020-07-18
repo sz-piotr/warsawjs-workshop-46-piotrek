@@ -21,7 +21,4 @@
  * ```
  */
 export function getTotalSalary (employees) {
-  return employees
-    .map(employee => employee.salary)
-    .reduce((a, b) => a + b, 0)
 }

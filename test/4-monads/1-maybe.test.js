@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import { safeGetProp } from '../../src/4-monads/1-maybe'
 
-describe('1 - (monads) maybe - safeGetProp', () => {
+describe.skip('1 - (monads) maybe - safeGetProp', () => {
   it('returns just when prop is on the object', () => {
     const maybe = safeGetProp({ foo: 'bar' }, 'foo')
     expect(maybe.value).to.equal('bar')

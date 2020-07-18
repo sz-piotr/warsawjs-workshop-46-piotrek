@@ -2,7 +2,7 @@ import { expect } from 'chai'
 import { isA } from '../../src/3-data-validation/1-types'
 import { isArrayOf, isAnyOf, isExactly } from '../../src/3-data-validation/3-misc'
 
-describe('3 - (data-validation) misc - isArrayOf', () => {
+describe.skip('3 - (data-validation) misc - isArrayOf', () => {
   it('always fails for non-arrays', () => {
     expect(isArrayOf(isA('string'))(42)).to.equal(false)
   })
@@ -27,7 +27,7 @@ describe('3 - (data-validation) misc - isArrayOf', () => {
   })
 })
 
-describe('3 - (data-validation) misc - isAnyOf', () => {
+describe.skip('3 - (data-validation) misc - isAnyOf', () => {
   it('fails if the value does not match', () => {
     const isPrimitive = isAnyOf(
       isA('string'),
@@ -61,7 +61,7 @@ describe('3 - (data-validation) misc - isAnyOf', () => {
   })
 })
 
-describe('3 - (data-validation) misc - isExactly', () => {
+describe.skip('3 - (data-validation) misc - isExactly', () => {
   it('fails if the value does not match', () => {
     const is4 = isExactly(4)
     expect(is4(3)).to.equal(false)

@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import { getShortNamedAnimals } from '../../src/2-point-free/1-filter'
 
-describe('1 - (point-free) filter - getShortNamedAnimals', () => {
+describe.skip('1 - (point-free) filter - getShortNamedAnimals', () => {
   it('returns [] given []', () => {
     const animals = []
     const result = getShortNamedAnimals(animals)

@@ -1,8 +1,3 @@
-const compose = (...fs) => x => fs.reduceRight((x, f) => f(x), x)
-const filter = f => array => array.filter(f)
-const getProperty = prop => x => x[prop]
-const isLessThan = value => x => x < value
-
 /**
  * Write a point-free function that returns all animals which names are shorter
  * than 5. Each animal is an object with the following shape:
@@ -26,10 +21,4 @@ const isLessThan = value => x => x < value
  * ]
  * ```
  */
-export const getShortNamedAnimals = filter(
-  compose(
-    isLessThan(5),
-    getProperty('length'),
-    getProperty('name')
-  )
-)
+export const getShortNamedAnimals = null

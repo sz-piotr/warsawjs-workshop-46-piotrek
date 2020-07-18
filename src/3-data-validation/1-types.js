@@ -10,7 +10,4 @@
  * isA(Array)(1) // false
  * ```
  */
-export const isA = type =>
-  typeof type === 'string'
-    ? x => typeof x === type // eslint-disable-line valid-typeof
-    : x => x instanceof type
+export const isA = null

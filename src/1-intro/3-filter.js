@@ -1,5 +1,3 @@
-import { getTotalSalary } from './2-reduce'
-
 /**
  * Write a function that takes an array of employees and returns the names
  * of employees that earn more than the average. Use Array.prototype.filter.
@@ -24,9 +22,4 @@ import { getTotalSalary } from './2-reduce'
  * Output = ['Jane Wealthy', 'Dick Rich']
  * ```
  */
-export function getHighEarners (employees) {
-  const average = getTotalSalary(employees) / employees.length
-  return employees
-    .filter(employee => employee.salary > average)
-    .map(employee => `${employee.firstName} ${employee.lastName}`)
-}
+export function getHighEarners (employees) {}
