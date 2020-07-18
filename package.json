@@ -2,7 +2,8 @@
   "name": "warsawjs-workshop-45-piotrek",
   "private": true,
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "lint": "standard --env mocha"
   },
   "dependencies": {},
   "devDependencies": {
@@ -11,6 +12,7 @@
     "@types/node": "^14.0.13",
     "chai": "^4.2.0",
     "mocha": "^8.0.1",
+    "standard": "^14.3.4",
     "ts-node": "^8.10.2",
     "typescript": "^3.9.5"
   },
